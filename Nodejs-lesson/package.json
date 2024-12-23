@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node --watch server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "node --watch mysql.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}
